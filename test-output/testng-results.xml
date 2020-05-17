@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NetBanking" duration-ms="65678" started-at="2020-05-11T16:35:10 EDT" finished-at="2020-05-11T16:36:16 EDT">
+    <groups>
+    </groups>
+    <test name="BankingApp Test" duration-ms="65678" started-at="2020-05-11T16:35:10 EDT" finished-at="2020-05-11T16:36:16 EDT">
+      <class name="com.netbank.TestCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.netbank.TestCases.TC_LoginTest_001@614ddd49]" name="setup" is-config="true" duration-ms="17273" started-at="2020-05-11T16:35:11 EDT" finished-at="2020-05-11T16:35:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.netbank.TestCases.TC_LoginTest_001@614ddd49]" name="loginTest" duration-ms="6171" started-at="2020-05-11T16:35:28 EDT" finished-at="2020-05-11T16:35:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.netbank.TestCases.TC_LoginTest_001@614ddd49]" name="tearDown" is-config="true" duration-ms="966" started-at="2020-05-11T16:35:34 EDT" finished-at="2020-05-11T16:35:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.netbank.TestCases.TC_LoginTest_001 -->
+      <class name="com.netbank.TestCases.TC_AddCustomerTest_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.netbank.TestCases.TC_AddCustomerTest_003@694e1548]" name="setup" is-config="true" duration-ms="11128" started-at="2020-05-11T16:35:48 EDT" finished-at="2020-05-11T16:35:59 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.netbank.TestCases.TC_AddCustomerTest_003@694e1548]" name="addNewCustomer" duration-ms="16178" started-at="2020-05-11T16:35:59 EDT" finished-at="2020-05-11T16:36:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.netbank.TestCases.TC_AddCustomerTest_003@694e1548]" name="tearDown" is-config="true" duration-ms="834" started-at="2020-05-11T16:36:15 EDT" finished-at="2020-05-11T16:36:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.netbank.TestCases.TC_AddCustomerTest_003 -->
+      <class name="com.netbank.TestCases.TC_LoginDDT_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.netbank.TestCases.TC_LoginDDT_002@1f554b06]" name="setup" is-config="true" duration-ms="11171" started-at="2020-05-11T16:35:35 EDT" finished-at="2020-05-11T16:35:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.netbank.TestCases.TC_LoginDDT_002@1f554b06]" name="loginDDT" duration-ms="0" started-at="2020-05-11T16:35:47 EDT" data-provider="LoginData" finished-at="2020-05-11T16:35:47 EDT">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[org.apache.poi.openxml4j.exceptions.OLE2NotOfficeXmlFileException: The supplied data appears to be in the OLE2 Format. You are calling the part of POI that deals with OOXML (Office Open XML) Documents. You need to call a different part of POI to process this data (eg HSSF instead of XSSF)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: org.apache.poi.openxml4j.exceptions.OLE2NotOfficeXmlFileException: The supplied data appears to be in the OLE2 Format. You are calling the part of POI that deals with OOXML (Office Open XML) Documents. You need to call a different part of POI to process this data (eg HSSF instead of XSSF)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:820)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.poi.openxml4j.exceptions.OLE2NotOfficeXmlFileException: The supplied data appears to be in the OLE2 Format. You are calling the part of POI that deals with OOXML (Office Open XML) Documents. You need to call a different part of POI to process this data (eg HSSF instead of XSSF)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:179)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:98)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+at com.netbank.Utilities.XLUtils.getRowCount(XLUtils.java:53)
+at com.netbank.TestCases.TC_LoginDDT_002.getData(TC_LoginDDT_002.java:93)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.netbank.TestCases.TC_LoginDDT_002@1f554b06]" name="tearDown" is-config="true" duration-ms="981" started-at="2020-05-11T16:35:47 EDT" finished-at="2020-05-11T16:35:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.netbank.TestCases.TC_LoginDDT_002 -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- NetBanking -->
+</testng-results>
